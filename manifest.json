@@ -1,9 +1,9 @@
 {
   "name": "Star-rules",
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "Apply CSS rules to all elements on the page",
   "browser_action": {
-    "default_icon": "asterisk-yellow-icon-32.png"
+    "default_icon": "images/asterisk-yellow-icon-32.png"
   },
   "permissions": [
     "<all_urls>"

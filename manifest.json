@@ -1,6 +1,6 @@
 {
     "name"                   : "Star-rules",
-    "version"                : "0.0.1",
+    "version"                : "0.0.2",
     "description"            : "Apply CSS rules to all elements on the page",
     "background_page"        : "background.html",
     "browser_action"         : {

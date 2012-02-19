@@ -57,10 +57,12 @@ function _toggleStarRules(tabId, /*Boolean*/ setStarRules) {
 
 function contextMenuListener(info, tab) {
     toggleStarRules(tab.id);
+    _gaq.push(["_trackEvent", "toggled", "contextMenu"]);
 }
 
 function browserActionListener(tab) {
     toggleStarRules(tab.id);
+    _gaq.push(["_trackEvent", "toggled", "browserAction"]);
 }
 
 chrome.browserAction.onClicked.addListener(browserActionListener);

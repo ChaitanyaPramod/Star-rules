@@ -1,11 +1,23 @@
 {
-  "name": "Star-rules",
-  "version": "0.0.1",
-  "description": "Apply CSS rules to all elements on the page",
-  "browser_action": {
-    "default_icon": "images/asterisk-yellow-icon-32.png"
-  },
-  "permissions": [
-    "<all_urls>"
-  ]
+    "name"                   : "Star-rules",
+    "version"                : "0.0.1",
+    "description"            : "Apply CSS rules to all elements on the page",
+    "background_page"        : "background.html",
+    "browser_action"         : {
+        "default_icon" : "images/star_orange_32.png",
+        "default_title": "Toggle CSS transition on '*' selector"
+    },
+    "icons"                  : {
+        "256": "images/star_orange_256.png",
+        "128": "images/star_orange_128.png",
+        "64" : "images/star_orange_64.png",
+        "48" : "images/star_orange_48.png",
+        "32" : "images/star_orange_32.png",
+        "16" : "images/star_orange_16.png"
+    },
+    "permissions"            : [
+        "<all_urls>",
+        "tabs",
+        "contextMenus"
+    ]
 }

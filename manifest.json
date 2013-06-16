@@ -1,6 +1,6 @@
 {
     "name"                   : "Star-rules",
-    "version"                : "0.0.2",
+    "version"                : "0.0.3",
 	"manifest_version"       : 2,
     "description"            : "Apply CSS rules to all elements on the page",
 	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
